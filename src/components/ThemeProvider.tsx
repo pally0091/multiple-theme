@@ -2,6 +2,9 @@
 import React from "react";
 
 const GlobalStyles = () => {
+  // Need to fetch the theme from the server and setit in the css data
+  // const [cssData, setCssData]= React.useState("");
+
   const cssData = `
     :root {
       --background: 0 0% 100%;
